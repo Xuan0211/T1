@@ -1,0 +1,36 @@
+body{
+    margin:0;
+    padding:0;
+    background:#693b00;
+}
+h1{
+    font-family:叶根友行书繁;
+    font-size:200px;
+    font-weight:900;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    margin:0;
+    background:url("背景.jpg") 50% 50%;
+    background-size:cover;
+    color:rgba(255, 255, 255,0.5);
+    /* color:white; */
+    -webkit-background-clip:text;
+    transition:1s linear;
+    white-space: nowrap;
+    cursor: default;
+}
+h1:hover{
+    background:url("文字背景.jpg") 25% 25%;
+    background-size:cover;
+    color:transparent;
+    -webkit-background-clip:text;
+    white-space: nowrap;
+    /* color:rgba(232, 65, 24,0.5); */
+    /* color:white; */
+}
+div.Echart{
+    width: 100%;
+    text-align: center;
+}
